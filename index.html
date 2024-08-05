@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="./script.js" defer></script>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Form</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Form</h1>
+      <form action="" id="form">
+        <div class="input">
+          <div>
+            <label for="inputName">Name</label>
+            <input name="inputName" placeholder="Enter name..." type="text" />
+          </div>
+          <div>
+            <label for="inputEmail">Email</label>
+            <input name="inputEmail" placeholder="Enter email..." type="text" />
+          </div>
+        </div>
+        <div class="btn">
+          <button type="submit">save</button>
+        </div>
+      </form>
+      <div class="display">
+        <div class="displayName">
+          <div class="bold">Name</div>
+          <div class="content"></div>
+        </div>
+        <div class="displayEmail">
+          <div class="bold">Email</div>
+          <div class="content"></div>
+        </div>
+        <div class="displayAction">
+          <div class="bold">Action</div>
+          <div class="content"></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,120 @@
+body {
+  margin: 0px;
+  display: flex;
+  justify-content: center;
+  background-color: #1f1f1f;
+  color: white;
+  font-family: "Inconsolata", monospace;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+.container {
+  max-width: 800px;
+}
+#form {
+  display: flex;
+  flex-direction: column;
+  max-width: 800px;
+}
+.input {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+.input label{
+    font-size: 1.2rem;
+    font-weight: 900;
+}
+.input div {
+  min-width: 300px;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+}
+input {
+  height: 28px;
+  font-size: 1.2rem;
+}
+.btn {
+  display: flex;
+  flex-direction: row-reverse;
+}
+button {
+  display: inline-block;
+  outline: 0;
+  cursor: pointer;
+  border: none;
+  padding: 0 12px;
+  height: 28px;
+  line-height: 28px;
+  border-radius: 4px;
+  background-color: #ffffff;
+  color: rgb(30, 30, 30);
+  font-weight: 500;
+  box-shadow: 0 4px 8px 0 rgba(69, 69, 69, 0.544);
+}
+button:hover {
+  color: white;
+  background: rgba(14, 255, 134, 0.9);
+  box-shadow: 0 6px 12px rgba(77, 255, 0, 0.23);
+}
+
+.display {
+  display: grid;
+  grid-template-columns: 200px auto 150px;
+  border-radius: 4px;
+  margin-top: 24px;
+  overflow: hidden;
+}
+.displayName,
+.displayEmail,
+.displayAction {
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.bold {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+  background-color: #424242;
+  font-weight: 900;
+  font-size: 1.2rem;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #eaeaea;
+  color: rgb(30, 30, 30);
+}
+.content div {
+  height: 32px;
+  margin-bottom: 4px;
+  padding: 4px;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+}
+.actionBtn {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+.actionBtn button {
+  padding: 0 8px;
+}
+.edit:hover:hover {
+  color: white;
+  background: rgba(0, 89, 255, 0.9);
+  box-shadow: 0 6px 12px rgba(34, 0, 255, 0.23);
+}
+.delete:hover {
+  color: white;
+  background: rgba(255, 0, 76, 0.9);
+  box-shadow: 0 6px 12px rgba(255, 0, 17, 0.23);
+}
